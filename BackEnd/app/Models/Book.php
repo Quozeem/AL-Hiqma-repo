@@ -26,9 +26,7 @@ class Book extends Model
         
     ];
 
-    protected $casts = [
-        'authors' => 'array',
-    ];
+    
 
 
     public static function getExternalBooks(Request $request)
