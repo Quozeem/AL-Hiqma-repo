@@ -7,7 +7,9 @@ This project is an assessment task completed to demonstrate proficiency in perfo
 Technologies Used
 
 React.js: JavaScript library for building user interfaces.
-Laravel for Api[List of APIs]: POST (http://localhost:8000/api/v1/books
+
+Laravel for Api[List of APIs]: 
+POST (http://localhost:8000/api/v1/books
 
 GET (http://localhost:8000/api/v1/books
 
