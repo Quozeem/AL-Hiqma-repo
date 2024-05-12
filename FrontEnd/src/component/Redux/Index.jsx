@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   book: [],
-  Category: [],
+  testCategory: [],
   dataNotAccount: "",
   testmessage: "",
   Editbook: "",
