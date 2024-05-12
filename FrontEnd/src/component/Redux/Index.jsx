@@ -4,8 +4,8 @@ const initialState = {
   book: [],
   testCategory: [],
   dataNotAccount: "",
-  testmessage: "",
-  Editbook: "",
+  message: "",
+  testEditbook: "",
 };
 
 export const Index = createSlice({
