@@ -9,13 +9,13 @@ const initialState = {
 };
 
 export const Index = createSlice({
-  name: "counter",
+  name: "counters",
   initialState,
   reducers: {
-    setbook: (state, action) => {
+    setbooks: (state, action) => {
       state.book = action.payload;
     },
-    setdataNotAccount: (state, action) => {
+    setdataNotAccounts: (state, action) => {
       state.dataNotAccount = action.payload;
     },
     setmessage: (state, action) => {
