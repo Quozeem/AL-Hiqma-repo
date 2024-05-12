@@ -9,7 +9,7 @@ const initialState = {
 };
 
 export const Index = createSlice({
-  name: "testcounter",
+  name: "tesfftcounter",
   initialState,
   reducers: {
     setbook: (state, action) => {
