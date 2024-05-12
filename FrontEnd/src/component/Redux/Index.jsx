@@ -15,7 +15,7 @@ export const Index = createSlice({
     setbooks: (state, action) => {
       state.book = action.payload;
     },
-    setdataNotAccounts: (state, action) => {
+    setdataNotAccount: (state, action) => {
       state.dataNotAccount = action.payload;
     },
     setmessage: (state, action) => {
