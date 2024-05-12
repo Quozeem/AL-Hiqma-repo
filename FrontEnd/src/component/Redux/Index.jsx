@@ -12,7 +12,7 @@ export const Index = createSlice({
   name: "counter",
   initialState,
   reducers: {
-    setbooks: (state, action) => {
+    setbook: (state, action) => {
       state.book = action.payload;
     },
     setdataNotAccounts: (state, action) => {
