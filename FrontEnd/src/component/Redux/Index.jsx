@@ -9,13 +9,13 @@ const initialState = {
 };
 
 export const Index = createSlice({
-  name: "tesfftcounter",
+  name: "counter",
   initialState,
   reducers: {
     setbook: (state, action) => {
       state.book = action.payload;
     },
-    testsetdataNotAccount: (state, action) => {
+    setdataNotAccount: (state, action) => {
       state.dataNotAccount = action.payload;
     },
     setmessage: (state, action) => {
